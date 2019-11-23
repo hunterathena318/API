@@ -1,0 +1,193 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "an@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "email": "an1@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "email": "an123@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 4,
+      "email": "an318@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 5,
+      "email": "an1234@gmail.com",
+      "password": "123456"
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "email": "an@gmail.com",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "email": "an@gmail.com",
+      "password": "123456",
+      "id": 8
+    },
+    {
+      "email": "an@gmail.com",
+      "password": "123456",
+      "id": 9
+    },
+    {
+      "email": "tan@gmail.com",
+      "password": "123456",
+      "id": 10
+    },
+    {
+      "email": "tan123@gmail.com",
+      "password": "123456",
+      "id": 11
+    },
+    {
+      "email": "vien@gmail.com",
+      "password": "123456",
+      "id": 12
+    },
+    {
+      "email": "vien123@gmail.com",
+      "password": "123456",
+      "id": 13
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Luxury Room Vip",
+      "categoryId": 1,
+      "price":"$100",
+      "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Suspendisse sollicitudin velit sed leo ",
+      "imagesURL": "Booking1",
+      "bookingStart": "10-10-2019",
+      "bookingEnd": "15-10-2019",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "price": "$123",
+      "name": "Luxury Room Pro",
+      "categoryId": 2,
+      "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Suspendisse sollicitudin velit sed leo ",
+      "imagesURL": "Booking1",
+      "bookingStart": "10-10-2019",
+      "bookingEnd": "15-10-2019",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "price": "$500",
+      "name": "Luxury Room Family",
+      "categoryId": 3,
+      "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Suspendisse sollicitudin velit sed leo ",
+      "imagesURL": "Booking1",
+      "bookingStart": "10-10-2019",
+      "bookingEnd": "15-10-2019",
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "name": "Luxury Room GOLD",
+      "categoryId": 4,
+      "price": "$1234",
+      "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Suspendisse sollicitudin velit sed leo ",
+      "imagesURL": "Booking1",
+      "bookingStart": "10-10-2019",
+      "bookingEnd": "15-10-2019",
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "name": "Luxury Room PRENIUM",
+      "categoryId": 1,
+      "price": "$5000",
+      "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Suspendisse sollicitudin velit sed leo ",
+      "imagesURL": "Booking1",
+      "bookingStart": "10-10-2019",
+      "bookingEnd": "15-10-2019",
+      "userId": 1
+    },
+    {
+      "id": 6,
+      "name": "Room CC",
+      "categoryId": 2,
+      "price": "$690",
+      "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Suspendisse sollicitudin velit sed leo ",
+      "imagesURL": "Booking1",
+      "bookingStart": "10-10-2019",
+      "bookingEnd": "15-10-2019",
+      "userId": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Room PRENIUM"
+    },
+    {
+      "id": 2,
+      "name": "Room Famaly"
+    },
+    {
+      "id": 3,
+      "name": "Room Personal"
+    },
+    {
+      "id": 4,
+      "name": "Room Wedding"
+    }
+  ],
+  "booking": [
+    {
+      "id": 1,
+      "bookingStart": "10-10-2019",
+      "bookingEnd": "15-10-2019",
+      "users": [
+        {
+          "Userid": 1
+        }
+      ],
+      "rooms": [
+        {
+          "Roomid": 1
+        },
+        {
+          "Roomid": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "bookingStart": "10-10-2019",
+      "bookingEnd": "15-10-2019",
+      "users": [
+        {
+          "Userid": 2
+        }
+      ],
+      "rooms": [
+        {
+          "Roomid": 4
+        },
+        {
+          "Roomid": 3
+        }
+      ]
+    }
+  ]
+}
